@@ -1,1 +1,13 @@
 @import '~bootstrap/scss/bootstrap';
+
+.cover-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+}
