@@ -1,0 +1,18 @@
+{{#each books as |book|}}
+  {{log book}}
+
+  <div class="book">
+    <h2 data-id="{{book.id}}">
+      <small>Title:</small> {{limit book.title 15}}
+    </h2>
+    <p>
+      <small>Author:</small>
+      {{#if book.author}}
+        {{book.author}}
+      {{else}}
+        No author provided.
+      {{/if}}
+    </p>
+  </div>
+
+{{/each}}
