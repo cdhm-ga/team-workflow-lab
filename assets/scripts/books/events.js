@@ -14,4 +14,6 @@ const eventHandlers = () => {
   $('#get-books-button').on('click', onGetBooks)
 }
 
-module.exports = eventHandlers
+module.exports = {
+  eventHandlers
+}
